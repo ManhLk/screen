@@ -21,11 +21,20 @@ Kết quả như hình dưới đây:
 ``` 
 screen -S session_name
 ```
+![new_ss](https://user-images.githubusercontent.com/63502091/163512855-87005076-dc74-4183-88d9-9dafbc1c734f.png)
 
 * Detach khỏi screen session 
 
 ```
 screen + a d 
 ```
-*
+* Xem danh sách các screen đang chạy
+
+```
+screen -ls 
+```
+
+Kết quả như hình dưới đây:
+
+![list](https://user-images.githubusercontent.com/63502091/163513622-106f15c0-6af1-48c2-b428-23c6895f8af2.png)
 
