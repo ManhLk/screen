@@ -1,4 +1,14 @@
 # Screen
+
+### Mục lục 
+
+[1. Cài đặt screen trên Ubuntu](#install_screen)
+
+[2. Một số lệnh cơ bản](#basic_command)
+
+[3. Một số lệnh tham khảo thêm](#additional_command)
+
+<a name = "install_screen"></a>
 ## 1. Cài đặt screen trên Ubuntu 
 * **Sử dụng lệnh sau để cài đặt screen trên Ubuntu:**
 
@@ -15,7 +25,9 @@ screen --version
 Kết quả như hình dưới đây:
 
 ![screen_version](https://user-images.githubusercontent.com/63502091/163511423-cfe7b533-bf83-4e0b-8aef-f12523f04796.png)
-## 2. Một số lệnh cơ bản 
+
+<a name = "basic_command"></a>
+## 2. Một số lệnh cơ bản  
 * **Tạo một session mới**
 
 ``` 
@@ -58,6 +70,7 @@ Kết quả như hình dưới:
 
 ![kill](https://user-images.githubusercontent.com/63502091/163514466-21420e30-033b-412a-8159-abe5abf66d74.png)
 
+<a name="additional_command"></a>
 ## 3. Một số lệnh tham khảo thêm 
 * **Tạo một cửa sổ mới trong session**
 
