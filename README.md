@@ -48,3 +48,12 @@ Ví dụ như hình dưới:
 
 ![attach](https://user-images.githubusercontent.com/63502091/163514019-2bd5b481-e682-4348-9c9d-6982ffe18e51.png)
 
+* **Kill session**
+
+```
+screen -S session_name -X quit
+```
+
+Kết quả như hình dưới:
+
+![kill](https://user-images.githubusercontent.com/63502091/163514466-21420e30-033b-412a-8159-abe5abf66d74.png)
