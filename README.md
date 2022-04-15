@@ -38,3 +38,13 @@ Kết quả như hình dưới đây:
 
 ![list](https://user-images.githubusercontent.com/63502091/163513622-106f15c0-6af1-48c2-b428-23c6895f8af2.png)
 
+* **Attach vào session đang chạy ngầm**
+
+```
+screen -x session_name 
+``` 
+
+Ví dụ như hình dưới:
+
+![attach](https://user-images.githubusercontent.com/63502091/163514019-2bd5b481-e682-4348-9c9d-6982ffe18e51.png)
+
