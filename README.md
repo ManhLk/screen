@@ -1,5 +1,5 @@
 # Screen
-## Cài đặt screen trên Ubuntu 
+## 1. Cài đặt screen trên Ubuntu 
 * **Sử dụng lệnh sau để cài đặt screen trên Ubuntu:**
 
 ```
@@ -15,7 +15,7 @@ screen --version
 Kết quả như hình dưới đây:
 
 ![screen_version](https://user-images.githubusercontent.com/63502091/163511423-cfe7b533-bf83-4e0b-8aef-f12523f04796.png)
-## Một số lệnh cơ bản 
+## 2. Một số lệnh cơ bản 
 * **Tạo một session mới**
 
 ``` 
@@ -26,7 +26,7 @@ screen -S session_name
 * **Detach khỏi screen session**
 
 ```
-screen + a d 
+Ctrl + a d 
 ```
 * **Xem danh sách các screen đang chạy**
 
@@ -57,3 +57,58 @@ screen -S session_name -X quit
 Kết quả như hình dưới:
 
 ![kill](https://user-images.githubusercontent.com/63502091/163514466-21420e30-033b-412a-8159-abe5abf66d74.png)
+
+## 3. Một số lệnh tham khảo thêm 
+* **Tạo một cửa sổ mới trong session**
+
+```
+Ctrl + a c
+```
+
+* **List các cửa sổ (window) trong session**
+
+```
+Ctrl + a "
+```
+
+* **Chuyển đổi (switch) tới cửa sổ 0 (by number)**
+
+```
+Ctrl + a 0
+```
+
+* **Đổi tên cửa sổ (window) hiện tại**
+
+```
+Ctrl + a A
+```
+
+* **Chia cửa sổ (window) theo chiều ngang**
+
+```
+Ctrl + a S
+```
+
+* **Chia cửa sổ (window) theo chiều dọc**
+
+```
+Ctrl + a |
+```
+
+* **Di chuyển giữa các vùng được chia**
+
+```
+Ctrl + a tab 
+```
+
+* **Đóng tất cả các vùng được chia**
+
+```
+Ctrl + a Q
+```
+
+* **Đóng vùng hiện tại**
+
+```
+Ctrl + a X
+```
