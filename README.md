@@ -25,6 +25,7 @@ screen -S session_name
 * Detach khỏi screen session 
 
 ```
-screen + 
+screen + a d 
 ```
+*
 
